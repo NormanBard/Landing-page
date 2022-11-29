@@ -12,12 +12,11 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    
     background-color: #1f2937;
     color: white;
     
- 
 }
+
 .header_logo{
     font-weight: 800;
 
@@ -45,6 +44,7 @@ img{
     justify-content: space-between;
     background-color: #1f2937;
     color: white;
+    height: 200px;
 
 }
 
@@ -82,9 +82,8 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
     gap: 10px;
-
+    height: 200px;
     
 }
 
@@ -115,21 +114,36 @@ img{
 .container_3 {
     display: flex;
     font-weight: 300;
-    background-color: #e5e7eb
-
+    background-color: #e5e7eb;
+    height: 200px;
+    
 }
 
 .quote{
     font-size: 36px;
     font-weight: 300px;
     font-style:italic;
+    justify-self: center;
+    align-self: center;
+
 }
 .author{
     display: flex;
-    justify-content: flex-end;
+    align-items: flex-end;
+    font-weight: bold;
+}
+
+.sign_up_2{
+    display: flex;
+    align-self: flex-end;
 }
 
 .container_foot{
     display: flex;
     justify-content: space-between;
+    height: 200px;
+    background-color: #3882f6;
 }
+
+
+
