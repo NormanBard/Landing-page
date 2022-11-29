@@ -95,16 +95,34 @@ img{
     font-weight: 800;
 }
 
+
 .first, .second, .third, .fourth{
     border-style:solid;
-    border-color: black;
-    height: 3rem;
-    width: 3rem;
+    border-color: #3882f6;
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+   
+    
 }
+.first img, .second img, .third img, .fourth img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 12px;
+}
+
 
 .container_3 {
     display: flex;
+    font-weight: 300;
+    background-color: #e5e7eb
 
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300px;
+    font-style:italic;
 }
 .author{
     display: flex;
